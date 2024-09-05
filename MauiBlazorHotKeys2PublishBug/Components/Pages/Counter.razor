@@ -1,7 +1,7 @@
 ﻿@page "/counter"
 @implements IAsyncDisposable
-@using Toolbelt.Blazor.HotKeys2
-@inject HotKeys HotKeys
+@*using Toolbelt.Blazor.HotKeys2*@
+@*inject HotKeys HotKeys*@
 
 <h1>Counter</h1>
 
@@ -11,20 +11,20 @@
 
 @code {
 	private int currentCount = 0;
-	private HotKeysContext? _hotKeysContext;
+	// private HotKeysContext? _hotKeysContext;
 
 	public async ValueTask DisposeAsync() // 👈 Add "DisposeAsync" method.
 	{
-		if (_hotKeysContext != null)
-			await _hotKeysContext.DisposeAsync();
+		// if (_hotKeysContext != null)
+			// await _hotKeysContext.DisposeAsync();
 	}
 
 	protected override void OnAfterRender(bool firstRender)
 	{
 		if (firstRender)
 		{
-			_hotKeysContext = this.HotKeys.CreateContext()
-				.Add(ModCode.Ctrl | ModCode.Shift, Code.I, IncrementCount, new() { Description = "Increment count" });
+			// _hotKeysContext = this.HotKeys.CreateContext()
+				// .Add(ModCode.Ctrl | ModCode.Shift, Code.I, IncrementCount, new() { Description = "Increment count" });
 		}
 	}
 
