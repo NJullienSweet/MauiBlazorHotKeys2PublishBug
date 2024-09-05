@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Toolbelt.Blazor.Extensions.DependencyInjection;
 
 namespace MauiBlazorHotKeys2PublishBug
 {
@@ -15,6 +16,7 @@ namespace MauiBlazorHotKeys2PublishBug
 				});
 
 			builder.Services.AddMauiBlazorWebView();
+			builder.Services.AddHotKeys2();
 
 #if DEBUG
 			builder.Services.AddBlazorWebViewDeveloperTools();
