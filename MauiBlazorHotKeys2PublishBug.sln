@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBlazorHotKeys2PublishBug", "MauiBlazorHotKeys2PublishBug\MauiBlazorHotKeys2PublishBug.csproj", "{06D71D15-78A4-4619-A2AF-AEED888B0C0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WixSharpSetup", "WixSharpSetup\WixSharpSetup.csproj", "{671A2410-EC65-4343-BCC2-750B0D112AA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{06D71D15-78A4-4619-A2AF-AEED888B0C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06D71D15-78A4-4619-A2AF-AEED888B0C0F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{06D71D15-78A4-4619-A2AF-AEED888B0C0F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{671A2410-EC65-4343-BCC2-750B0D112AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671A2410-EC65-4343-BCC2-750B0D112AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671A2410-EC65-4343-BCC2-750B0D112AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671A2410-EC65-4343-BCC2-750B0D112AA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
